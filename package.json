@@ -1,0 +1,35 @@
+{
+  "name": "passport-ultraauth",
+  "version": "0.0.1",
+  "description": "Eliminate customer phishing / hijacking and increase user satisfaction with password-less authentication.",
+  "keywords": [
+    "passport",
+    "ultraauth",
+    "biometric",
+    "authentication",
+    "identity"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ultraauth/passport-ultraauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ultraauth/passport-ultraauth/issues"
+  },
+  "author": {
+    "name": "Kartikey Tanna",
+    "email": "tannakartikey@gmail.com",
+    "url": "https://github.com/tannakartikey"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "dependencies": {
+    "passport-openidconnect": "^0.0.2"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
